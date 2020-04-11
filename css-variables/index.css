@@ -1,0 +1,18 @@
+:root {
+  --border-color: darkgreen;
+  --border-size: 5px;
+  --highlight-color: lightgreen;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: xx-large;
+}
+
+.highlight-panel {
+  padding: 1em;
+  margin: 1em;
+  border-radius: 0.5em;
+  border: var(--border-size) solid var(--border-color);
+  background-color: var(--highlight-color, green);
+}
